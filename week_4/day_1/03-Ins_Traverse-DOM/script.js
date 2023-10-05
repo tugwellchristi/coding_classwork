@@ -1,3 +1,9 @@
+/* 
+    DOM Traversal:
+    -Using the DOM to navigate elements to select nodes in the DOM tree. 
+    -Select HTML elements based on their relation to other elements in the tree. 
+*/
+
 console.log("Document Body: ")
 console.log(document.body);
 
