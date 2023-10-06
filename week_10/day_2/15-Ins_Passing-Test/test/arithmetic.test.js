@@ -11,6 +11,11 @@ describe('Arithmetic', () => {
       const arithmetic = new Arithmetic();
       expect(arithmetic.modulus(2, 2)).toEqual(total);
     });
+    describe('sum', () => {
+      it("it should add in two number", () => {
+        
+      })
+    })
 
     // This test checks to see if 3 % 2 has a remainder of 1 and returns 1.
     it('should calculate 3 % 2 and return 1 as the remainder', () => {

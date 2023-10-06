@@ -4,7 +4,8 @@ class Arithmetic {
     
     // Checks to see that both numbers being passed in are of type number. If not, throw an error.
     if (typeof num1 !== "number" || typeof num2 !== "number") {
-      throw new Error('Please enter numbers for calculation');
+      // throw new Error('Please enter numbers for calculation');
+      console.warn("you didn't pass a number")
     };
     
     this.num1 = num1;
