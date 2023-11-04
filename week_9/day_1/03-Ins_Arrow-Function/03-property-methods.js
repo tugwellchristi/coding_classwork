@@ -4,7 +4,7 @@ var dog = {
   sound: "Woof!",
   makeSound: function () { console.log(this.sound) },
   // readTag: function() { console.log("The dog's tag reads: " + this.name + ".")}
-  readTag() { console.log("The dog's tag reads: " + this.name + ".") }
+  readTag() { console.log("The dog's tag reads: " + this.name + ".") } // only applicable to write this way if just an object
 };
 
 

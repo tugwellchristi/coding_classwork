@@ -3,14 +3,14 @@
 // It's done when I compare those two variables to see whether they are the same or not.
 // It's done if the program returns `true` when the values are the same and `false` if they are not. 
 
-// const one = process.argv[2];
-// const two = process.argv[3];
+const one = process.argv[2];
+const two = process.argv[3];
 
-// if (one === two) {
-   // console.log('true')
-//}
-// else {
-  //  console.log('false')
-//}
+if (one === two) {
+   console.log('true')
+}
+else {
+   console.log('false')
+}
 
 console.log(process.argv[2] === process.argv[3]);

@@ -1,4 +1,4 @@
-// TODO: What are we importing? file system (library)
+// TODO: What are we importing?  node file system (library)
 const fs = require('fs');
 
 // TODO: Add comments to explain each of the three arguments of appendFile() 

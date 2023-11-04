@@ -6,17 +6,17 @@
 
 // Before ES6
 
- var myName = 'Mike';
- console.log(myName);
+//  var myName = 'Mike';
+//  console.log(myName);
 // ==========================================================================
 
 // 1. const can be used for values which we will not reassign
 
-const age = 25;
+// let age = 25;
 
- age++; // TypeError: Assignment to constant variable.
+//  age++; // TypeError: Assignment to constant variable.
 
-// ==========================================================================
+// // ==========================================================================
 
 // const name = "";
 
